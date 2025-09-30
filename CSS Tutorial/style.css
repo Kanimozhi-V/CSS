@@ -1,0 +1,16 @@
+/* Class Selector */
+
+.one{
+    color:violet
+    
+}
+
+/* Id Selector */
+#two{
+    color:blue
+}
+/* Universal Selector */
+
+*{
+    font-family: Arial, sans-serif;
+}

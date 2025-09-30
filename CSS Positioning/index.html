@@ -1,0 +1,47 @@
+<style>
+    .one{
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        position: static;
+    }
+    .two{
+        background-color: black;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        position: relative;
+        top:20px;
+        left: 20px;
+        z-index: 1;
+    }
+    .three{
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        margin: 5px;
+        position: relative;
+        z-index: 2;
+    }
+    h1{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+    }
+    div{
+        margin-top: 200px;
+        margin-left: 100px;
+        border: solid black 2px;
+        width: 200px;
+        height: 100px;
+        position: relative;
+    }
+
+</style>
+<div class="one"></div>
+<div class="two"></div>
+<div class="three"></div>
+<div>
+    <h1>Hi</h1>
+</div>
